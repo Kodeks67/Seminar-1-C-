@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int numberA = int.Parse (Console.ReadLine());
+
+for (int i = 2; i <= numberA; i += 2)
+{
+    Console.Write($"{i} ");
+}
